@@ -10,7 +10,7 @@ import (
 )
 
 // New returns a new XL-320 servo with the given ID.
-// See: http://support.robotis.com/en/product/dynamixel/xl-series/xl-320.htm
+// See: https://emanual.robotis.com/docs/en/dxl/x/xl320/
 func New(network io.ReadWriter, ID int) (*servo.Servo, error) {
 	return servo.New(v2.New(network), Registers, ID), nil
 }

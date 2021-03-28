@@ -75,10 +75,10 @@ The API is based on the Dynamixel [v1 protocol] [proto] docs.
 
 
 
-[ax]:       http://support.robotis.com/en/product/dynamixel/ax_series/dxl_ax_actuator.htm
-[xl]:       http://support.robotis.com/en/product/dynamixel/xl-series/xl-320.htm
+[ax]:       https://emanual.robotis.com/docs/en/dxl/ax/ax-12a/
+[xl]:       https://emanual.robotis.com/docs/en/dxl/x/xl320/
 [docs]:     https://godoc.org/github.com/adammck/dynamixel
 [examples]: https://github.com/adammck/dynamixel/tree/master/examples
-[proto]:    http://support.robotis.com/en/product/dynamixel/ax_series/dxl_ax_actuator.htm#Control_Table
+[proto]:    https://emanual.robotis.com/docs/en/dxl/ax/ax-12a/#control-table
 [license]:  https://github.com/adammck/dynamixel/blob/master/LICENSE
 [adammck]:  http://github.com/adammck
