@@ -4,7 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/adammck/dynamixel)](https://goreportcard.com/report/github.com/adammck/dynamixel)
 [![GoDoc](https://godoc.org/github.com/adammck/dynamixel?status.svg)](https://godoc.org/github.com/adammck/dynamixel)
 
-This packages provides a Go interface to Dynamixel servos. It's tested against
+These packages provides a Go interface to Dynamixel servos. It's tested against
 [AX-12] [ax] and [XL-320] [xl] servos (because I am a cheapskate), but should
 work with other models.
 

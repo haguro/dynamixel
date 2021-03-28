@@ -33,7 +33,7 @@ func New(serial io.ReadWriteCloser) *Network {
 	}
 }
 
-// read receives the next n bytes from the network, blocking if they're not
+// Read receives the next n bytes from the network, blocking if they're not
 // immediately available. Returns a slice containing the bytes read. If the
 // network timeout is reached, returns the bytes read so far (which might be
 // none) and an error.
