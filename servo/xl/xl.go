@@ -49,8 +49,8 @@ func init() {
 		reg.IGain:                 {0x1c, 1, reg.RW, 0, 254},
 		reg.PGain:                 {0x1d, 1, reg.RW, 0, 1023},
 		reg.GoalPosition:          {0x1e, 2, reg.RW, 0, 1023}, // deg = value*0.29; 512 (150 deg) is center
-		reg.GoalVelocity:          {0x20, 2, reg.RW, 0, 2047}, // joint mode: rpm = ~value*0.111, but 0 = max rpm. wheel mode: see docs
-		reg.GoalTorque:            {0x23, 2, reg.RW, 0, 1023}, // zero to max torque
+		reg.MovingSpeed:           {0x20, 2, reg.RW, 0, 2047}, // joint mode: rpm = ~value*0.111, but 0 = max rpm. wheel mode: see docs
+		reg.TorqueLimit:           {0x23, 2, reg.RW, 0, 1023}, // zero to max torque
 		reg.PresentPosition:       {0x25, 2, reg.RO, x, x},    // like goalPosition
 		reg.PresentSpeed:          {0x27, 2, reg.RO, x, x},
 		reg.PresentLoad:           {0x29, 2, reg.RO, x, x},
